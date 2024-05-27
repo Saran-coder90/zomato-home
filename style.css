@@ -1,0 +1,216 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+body, button, input, input::placeholder {
+    font-family: Okra, Helvetica, sans-serif;
+    font-size: large;
+    color: rgb(65, 63, 63);;
+}
+.items-1{
+    text-decoration: none;
+    color: white;
+    font-size: large;
+}
+.items{
+    text-decoration: none;
+    margin: 2.5rem;
+    color: white;
+    font-size: large;
+    
+}
+.background-container{
+    background-image: url("https://b.zmtcdn.com/web_assets/81f3ff974d82520780078ba1cfbd453a1583259680.png");
+    background-size: cover;
+    background-position: center;
+    padding: 1em;
+} 
+.dimension{
+    width:800px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    padding-bottom: 5rem;
+}
+.head-element{
+    font-family: "Ubuntu", sans-serif;
+    font-size: 60px;
+    font-weight: bolder;
+    font-style: italic;
+}
+.head-para{
+    font-size: 40px;
+    column-gap: 5px;
+}
+.head-para span{
+    font-weight: 600;
+}
+.change-color{
+    color: hotpink;
+    letter-spacing: 1px;
+}
+.change-size{
+    font-size:13.5px;
+    color: rgb(153, 143, 143);
+}
+.remove-bg{
+    outline: none;
+    border-style: solid;
+    border-color: white;
+}
+.change-align{
+    margin-left: 500px;
+}
+.image-dimensions{
+    width:350px;
+    border-top-left-radius: 18px;
+    border-top-right-radius: 18px;
+}
+.imd-div{
+    border-style: solid;
+    border-color: rgb(175, 172, 172);
+    border-width: 1px;
+    border-radius: 18px;
+    margin: 15px;
+    transition: all 0.5s ease;
+}
+.imd-div:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 0px 10px 0px;
+}
+.box-head{
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+.image-inner-text{
+    color: rgb(66, 64, 64);
+}
+.remove-underline{
+    text-decoration: none;
+}
+.image-container{
+    background-image: url("https://emap-romulus-prod.s3.eu-west-1.amazonaws.com/wp-content/uploads/sites/12/2021/09/Brixton-Angell-Town-lighting-surveillance-architectural-review.jpg");
+    height: 350px;
+    width: 300px;
+    border-radius: 16px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-end;
+    padding: 16px;
+    margin: 10px;
+}
+.para{
+    color: white;
+}
+.city-head{
+    font-weight: 300;
+    color: black;
+    font-size:40px;
+}
+
+.city-head span{
+    font-weight: 600;
+}
+
+.cities-box{
+    width: 550px;
+    border-radius: 16px;
+    padding: 1em;
+    margin: 10px;
+    box-shadow: 0px 0px 1px 0px;
+    cursor: pointer;
+}
+.cities-box:hover{
+    box-shadow: 0px 1px 3px 0px;
+}
+
+.make-center{
+    margin: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.customize-font{
+    color: rgb(15, 15, 15);
+    font-size: medium;
+    font-weight: 100;
+}
+.change-height{
+    height:50px
+}
+
+.bg-color{
+    background-color: rgb(250, 247, 242);
+}
+
+.explore-box{
+    box-shadow: 0px 0px 2px 0px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.explore-head{
+    font-size: black;
+    font-size: 40px;
+}
+footer{
+    background-color: #f8f8f8;
+}
+.footer-head{
+    font-style: italic;
+    font-weight: bolder;
+    font-size: 45px;
+    color: black;
+}
+.footer-body-head{
+    font-size: 15px;
+    color: black;
+}
+.points{
+    font-size: 14px;
+}
+.dimension-store{
+    width:150px;
+    margin: 5px;
+}
+.size{
+    font-size: 1em;
+    letter-spacing: 0.5px;
+}
+.points:hover{
+    color: black;
+    cursor: pointer; 
+}
+header{
+    animation-name: zoom;
+    animation-duration: 1.5s;
+}
+.box{
+    animation-name: zoom;
+    animation-delay: 0.2s;
+    animation-duration: 1.5s;
+}
+.box-2{
+    animation-name: zoomin;
+    animation-delay: 0.2s;
+    animation-duration: 1.5s;
+}
+
+
+@keyframes zoom{
+    from{
+        scale : 0
+    }
+    to{
+        scale : 1
+    }
+}
+
+@keyframes zoomin{
+    from {
+        transform:scale(2)
+    }
+    to{
+        transform: scale(1);
+    }
+}
